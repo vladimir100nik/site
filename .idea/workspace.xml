@@ -1,11 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc6618b9-5ece-40c3-a0ff-3da83684cc92" name="Default Changelist" comment="" />
+    <list default="true" id="cc6618b9-5ece-40c3-a0ff-3da83684cc92" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/style___.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style___.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1j8Pgz2qyJSWR7cIGTpaBXH1uSp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -14,20 +49,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/sass.cmd" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.30021366" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\volod\OneDrive\Рабочий стол\Uzdevums_2_Vladimirs_Nikolajevs\assets\pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.ideja.html">
+    <configuration name="ideja.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Uzdevums_2_Vladimirs_Nikolajevs/assets/pages/ideja.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Uzdevums_2_Vladimirs_Nikolajevs/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.ideja.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -41,25 +87,76 @@
       <option name="presentableId" value="Default" />
       <updated>1603182861918</updated>
       <workItem from="1603182863905" duration="2164000" />
-      <workItem from="1603185633355" duration="2583000" />
+      <workItem from="1603185633355" duration="12559000" />
+      <workItem from="1603207182397" duration="2165000" />
+      <workItem from="1603209408777" duration="147000" />
+      <workItem from="1603209568355" duration="7896000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1810" y="335" key="EditFileWatcherDialog" timestamp="1603185650256">
+    <state x="1703" y="235" key="#Inspections" timestamp="1603212090387">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state x="1810" y="335" key="EditFileWatcherDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1603185650256" />
+    <state x="1703" y="235" key="#Inspections/0.0.2752.1112@0.0.2752.1112" timestamp="1603212090387" />
+    <state x="1810" y="335" key="EditFileWatcherDialog" timestamp="1603208609932">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="1810" y="335" key="EditFileWatcherDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1603208609932" />
     <state x="1921" y="311" key="FileChooserDialogImpl" timestamp="1603185440660">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1921" y="311" key="FileChooserDialogImpl/0.0.2752.1112@0.0.2752.1112" timestamp="1603185440660" />
-    <state x="1650" y="201" key="SettingsEditor" timestamp="1603185450705">
+    <state width="1317" height="239" key="GridCell.Tab.0.bottom" timestamp="1603213818124">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state x="1650" y="201" key="SettingsEditor/0.0.2752.1112@0.0.2752.1112" timestamp="1603185450705" />
+    <state width="1317" height="239" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1603213818124" />
+    <state width="1317" height="239" key="GridCell.Tab.0.center" timestamp="1603213818124">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1317" height="239" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1603213818124" />
+    <state width="1317" height="239" key="GridCell.Tab.0.left" timestamp="1603213818123">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1317" height="239" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1603213818123" />
+    <state width="1317" height="239" key="GridCell.Tab.0.right" timestamp="1603213818124">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1317" height="239" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1603213818124" />
+    <state width="1317" height="239" key="GridCell.Tab.1.bottom" timestamp="1603213818124">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1317" height="239" key="GridCell.Tab.1.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1603213818124" />
+    <state width="1317" height="239" key="GridCell.Tab.1.center" timestamp="1603213818124">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1317" height="239" key="GridCell.Tab.1.center/0.0.2752.1112@0.0.2752.1112" timestamp="1603213818124" />
+    <state width="1317" height="239" key="GridCell.Tab.1.left" timestamp="1603213818124">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1317" height="239" key="GridCell.Tab.1.left/0.0.2752.1112@0.0.2752.1112" timestamp="1603213818124" />
+    <state width="1317" height="239" key="GridCell.Tab.1.right" timestamp="1603213818124">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1317" height="239" key="GridCell.Tab.1.right/0.0.2752.1112@0.0.2752.1112" timestamp="1603213818124" />
+    <state x="1650" y="201" key="SettingsEditor" timestamp="1603209799954">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="1650" y="201" key="SettingsEditor/0.0.2752.1112@0.0.2752.1112" timestamp="1603209799954" />
   </component>
 </project>
