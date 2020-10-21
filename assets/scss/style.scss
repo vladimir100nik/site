@@ -64,6 +64,7 @@ $bright_color: #fff;
   background-color: $secondary_color;
   transition: all 0.3s;
 
+
   &:hover {
     box-shadow: 0 0 10px $secondary_color;
   }
@@ -421,23 +422,25 @@ header {
 footer {
   color: #fff;
   margin-top: 150px;
+  background-image: url("../img/footer.png");
   //background-color: $primary_color;
   border: none;
+  background-position: bottom;
+  background-repeat: repeat-x;
 
   .footer_idea {
-    background-image: url("../img/footer.png");
-    background-repeat: repeat-x;
-    background-position: bottom;
+
   }
 
   .supporters {
     padding: 100px 100px 0;
     position: relative;
+    margin-bottom: -50px;
+    z-index: -1;
 
     &::before {
       width: 100%;
       @include background_img("../img/footer-orange-background.svg");
-
       height: 533px;
       z-index: 1;
       top: -50px;
@@ -471,6 +474,8 @@ footer {
   .footer-top {
     display: flex;
     padding: 150px 62px 0;
+    @extend .footer_idea;
+
 
     .footer-col {
       width: 25%;
@@ -568,28 +573,19 @@ footer {
 //Ideja page
 
 .main_foto {
-  position: relative;
-  width: 1366px;
+  width: 100%;
   height: auto;
-
-  &::before {
-    @include background_img('../img/juris_top_ripped.png');
-    z-index: 1;
-  }
-
-  &::after {
-    @include background_img('../img/juris_bottom_ripped.png');
-    height: 55px;
-    top: auto;
-    bottom: 0;
-    z-index: 1;
-  }
+  background-image: url("../img/ideja_main.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 200px;
 
   p {
-    position: absolute;
-    top: 508px;
-    left: 274px;
-    width: 818px;
+    display: inline-block;
+    margin: 508px 274px 100px;
+    padding-bottom: 50px;
+    //padding-top: 50px;
+    max-width: 50rem;
     font-family: Oswald;
     font-style: normal;
     font-weight: 500;
@@ -598,11 +594,12 @@ footer {
     text-align: center;
     color: #FFFFFF;
 
+
   }
 }
 
 .opinion {
-  width: 602px;
+  max-width: 602px;
   font-style: normal;
   align-items: center;
   color: $primary_color;
@@ -630,6 +627,58 @@ footer {
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
+  }
+
+}
+
+
+
+
+
+//Dreams Page
+
+
+.dreams {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  div {
+    text-align: center;
+  }
+
+  img {
+    width: 166px;
+    margin: 90px auto;
+  }
+
+  h2 {
+    display: inline-block;
+    width: 394px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    margin-top: 60px;
+    color: $primary_color;
+  }
+
+  p {
+    display: inline-block;
+    width: 394px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 30px;
+    color: $primary_color;
+
+  }
+  .btn {
+    @include button;
+    border: none;
+    margin-top: 50px;
   }
 }
 

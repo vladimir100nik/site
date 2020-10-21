@@ -370,16 +370,16 @@ header .video-container img.play-btn:hover {
 footer {
   color: #fff;
   margin-top: 150px;
-  border: none;
-}
-footer .footer_idea {
   background-image: url("../img/footer.png");
-  background-repeat: repeat-x;
+  border: none;
   background-position: bottom;
+  background-repeat: repeat-x;
 }
 footer .supporters {
   padding: 100px 100px 0;
   position: relative;
+  margin-bottom: -50px;
+  z-index: -1;
 }
 footer .supporters::before {
   width: 100%;
@@ -497,42 +497,18 @@ footer .footer-bottom {
 }
 
 .main_foto {
-  position: relative;
-  width: 1366px;
+  width: 100%;
   height: auto;
-}
-.main_foto::before {
-  width: 100%;
-  height: 128px;
-  content: "";
-  background: url("../img/juris_top_ripped.png") center no-repeat;
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  z-index: 1;
-}
-.main_foto::after {
-  width: 100%;
-  height: 128px;
-  content: "";
-  background: url("../img/juris_bottom_ripped.png") center no-repeat;
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  height: 55px;
-  top: auto;
-  bottom: 0;
-  z-index: 1;
+  background-image: url("../img/ideja_main.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 200px;
 }
 .main_foto p {
-  position: absolute;
-  top: 508px;
-  left: 274px;
-  width: 818px;
+  display: inline-block;
+  margin: 508px 274px 100px;
+  padding-bottom: 50px;
+  max-width: 50rem;
   font-family: Oswald;
   font-style: normal;
   font-weight: 500;
@@ -543,7 +519,7 @@ footer .footer-bottom {
 }
 
 .opinion {
-  width: 602px;
+  max-width: 602px;
   font-style: normal;
   align-items: center;
   color: #2F4858;
@@ -569,6 +545,57 @@ footer .footer-bottom {
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
+}
+
+.dreams {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.dreams div {
+  text-align: center;
+}
+.dreams img {
+  width: 166px;
+  margin: 90px auto;
+}
+.dreams h2 {
+  display: inline-block;
+  width: 394px;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 44px;
+  margin-top: 60px;
+  color: #2F4858;
+}
+.dreams p {
+  display: inline-block;
+  width: 394px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 30px;
+  color: #2F4858;
+}
+.dreams .btn {
+  width: 233px;
+  height: 50px;
+  font-size: 18px;
+  padding: 10px 50px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #FFA800;
+  transition: all 0.3s;
+  border: none;
+  margin-top: 50px;
+}
+.dreams .btn:hover {
+  box-shadow: 0 0 10px #FFA800;
 }
 
 @media (max-width: 1200px) {
