@@ -22,11 +22,11 @@
         </div>
 
         <ul id='menu'>
-            <li><a href="#">Ideja</a></li>
+            <li><a href="ideja.html">Ideja</a></li>
             <li><a class='active' href="#">Piesaki Sapni</a></li>
-            <li><a href="#">Uzņēmējiem</a></li>
-            <li><a href="#">Sapņu banka</a></li>
-            <li><a href="#">Sapņus atbalsta</a></li>
+            <li><a href="commercial.html">Uzņēmējiem</a></li>
+            <li><a href="dreambank.html">Sapņu banka</a></li>
+            <li><a href="support.html">Sapņus atbalsta</a></li>
             <li><a href="#">99 Iedvesmas stāsti</a></li>
             <li><a href="#">LV</a></li>
         </ul>
@@ -35,9 +35,11 @@
 
 </header>
 
-<h2 class="page_title">PIESAKI SAPNI</h2>
+<div class="section">
+    <h2 class="page_title">PIESAKI SAPNI</h2>
 
-<h1 class="section about">Tev ir iespēja pieteikt personīgo vai profesionālo sapni.</h1>
+    <h1 class="section about">Tev ir iespēja pieteikt personīgo vai profesionālo sapni.</h1>
+</div>
 
 
 <div class="section dreams">
@@ -45,19 +47,74 @@
     <div><img src="../img/ballon.svg" alt="ballon"></div>
     <div><h2>PERSONĪGAIS SAPNIS</h2></div>
     <div><h2>PROFESIONĀLAIS SAPNIS</h2></div>
-    <div><p>Bērnības nepiepildītie sapņi... No sev piederoša svaigi spiestas sulas bāra uz Tērbatas ielas līdz iespējai satikties ar Džekiju Čanu.</p></div>
-    <div><p>Sapnis vai ideja, kura ir balstīta uz reģiona, pasaules vai cilvēku attīstību 4 virzienos - kultūra, izglītība, zinātne, ģimene jeb sociālā vide. Tā ir iespēja attīstīt ideju, kas uzlabotu ikdienas dzīves kvalitāti vai atrisinātu vietēja vai starptautiska līmeņa problēmu. Pastāsti, kāpēc Tev tas ir tik nozīmīgi?</p></div>
-    <div><button class="btn">Piesaki sapni</button></div>
-    <div><button class="btn">Piesaki sapni</button></div>
+    <div><p>Bērnības nepiepildītie sapņi... No sev piederoša svaigi spiestas sulas bāra uz Tērbatas ielas līdz iespējai
+        satikties ar Džekiju Čanu.</p></div>
+    <div><p>Sapnis vai ideja, kura ir balstīta uz reģiona, pasaules vai cilvēku attīstību 4 virzienos - kultūra,
+        izglītība, zinātne, ģimene jeb sociālā vide. Tā ir iespēja attīstīt ideju, kas uzlabotu ikdienas dzīves
+        kvalitāti vai atrisinātu vietēja vai starptautiska līmeņa problēmu. Pastāsti, kāpēc Tev tas ir tik nozīmīgi?</p>
+    </div>
+    <div>
+        <button class="btn">Piesaki sapni</button>
+    </div>
+    <div>
+        <button class="btn">Piesaki sapni</button>
+    </div>
 
 </div>
 
-<div class="section opinion">
-    <h2>Ken Ludden </h2>
-    <h3>Director, Margot Fonteyn Academy of Ballet</h3>
-    <p>For it is Juris work that is the
-        light the human race needs so badly these days. His vision is inspired and talent is beyond measure.</p>
+<div class="section gallery-container">
+    <div class="gallery">
+        <div>
+            <img src="../img/dream_left.jpg" alt="">
+        </div>
+
+        <div>
+            <div>
+                <img src="../img/dream_centr_up.jpg" alt="">
+            </div>
+            <div>
+                <img src="../img/dream_centr_down.jpg" alt="">
+            </div>
+        </div>
+
+        <div>
+            <img src="../img/dream_centr_right.jpg" alt="">
+        </div>
+
+        <div>
+            <img src="../img/dream-right.jpg" alt="">
+        </div>
+    </div>
 </div>
+
+<div class="section contact-us">
+    <h2>SAZINĀTIES AR MUMS</h2>
+
+    <form action="" method="">
+        <div class="d-flex justify-content-between align-items-center">
+            <input class='half' type="text" name="name" placeholder="Vārds, Uzvārds*" required>
+            <input class='half' type="email" name="email" placeholder="E-pasts*" required>
+        </div>
+
+        <input type="tel" name="phone" placeholder="Telefons*" required>
+        <textarea name="message" placeholder="Jautājums, vai komentārs*" required></textarea>
+
+        <div>* obligāti aizpildāmie lauki</div>
+
+        <label class="checbox-container d-flex align-items-center">
+            <span>Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr
+                tas būs nepieciešams.
+            </span>
+            <input type="checkbox" name="terms" id="terms">
+            <span class="checkmark"></span>
+        </label>
+
+        <div class="btn-container">
+            <button class='btn' type="submit">Sūtīt</button>
+        </div>
+    </form>
+</div>
+
 
 
 <footer>
@@ -71,7 +128,7 @@
 
             <div class="footer-col">
                 <ul>
-                    <li><a href="#">Ideja</a></li>
+                    <li><a href="ideja.html">Ideja</a></li>
                     <li><a href="#">Piesaki Sapni</a></li>
                     <li><a href="#">Uzņēmējiem</a></li>
                     <li><a href="#">Sapņu banka</a></li>

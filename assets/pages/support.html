@@ -22,12 +22,12 @@
         </div>
 
         <ul id='menu'>
-            <li><a class='active' href="#">Ideja</a></li>
-            <li><a href="dreams.html">Piesaki Sapni</a></li>
+            <li><a href="ideja.html">Ideja</a></li>
+            <li><a href="#">Piesaki Sapni</a></li>
             <li><a href="commercial.html">Uzņēmējiem</a></li>
             <li><a href="dreambank.html">Sapņu banka</a></li>
-            <li><a href="support.html">Sapņus atbalsta</a></li>
-            <li><a href="#">99 Iedvesmas stāsti</a></li>
+            <li><a class='active' href="support.html">Sapņus atbalsta</a></li>
+            <li><a href="">99 Iedvesmas stāsti</a></li>
             <li><a href="#">LV</a></li>
         </ul>
         <div class="menu-overlay"></div>
@@ -36,32 +36,53 @@
 </header>
 
 <div class="section">
-    <h2 class="page_title">IDEJA</h2>
+    <h2 class="page_title">SAPŅUS ATBALSTA</h2>
 
-    <h1 class="section about">Juris Gogulis ir pasaules iedvesmots mākslinieks–horeogrāfs un režisors, kura ikdiena aizrit
-        radot aizkustinošus un iedvesmojošus radošus projektus. Juris ir pārliecināts, ka ir vērts ticēt katram savam sapnim
-        un censties to īstenot. Kā smejas pats - daudzu draugu sapņiem viņš tic vairāk, nekā viņi paši!</h1>
+    <h1 class="section about">Sadarbības partneri ir uzņēmumi, kuri savā preču vai pakalpojumu ikdienā ir integrējuši
+        SparkleHeart zīmolu un dala ar to konkrētu daļu savu ienākumu.</h1>
+
+    <div class="list">
+        <div class="list_item">
+            <p>Uzņemuma atrašanas vieta</p>
+            <form action="">
+                <select name="location" id="loc">
+                    <option value="Izvēlies">Izvēlies</option>
+                    <option value="Izvēlies">Jurmala</option>
+                    <option value="Izvēlies">Daugavpils</option>
+                    <option value="Izvēlies">Venspils</option>
+                    <option value="Izvēlies">Liepaja</option>
+                </select>
+            </form>
+        </div>
+        <div class="list_item">
+            <p>Uzņēmuma veids</p>
+            <form action="">
+                <select name="location" id="location">
+                    <option value="">Informācijas tehnoloģijas</option>
+                    <option value="">Finance</option>
+                    <option value="">Medicine</option>
+                    <option value="">Transport</option>
+                    <option value="">Food</option>
+                </select>
+            </form>
+        </div>
+    </div>
 </div>
 
+<!--<div id="map"></div>-->
 
-<div class="section main_foto">
-    <p>“Kopš 3 gadu vecuma mani ir audzinājusi mamma, pēc viņas piemēra esmu sapratis, cik sieviete ir spēcīga un
-        varoša. Vēlos atlīdzināt un izveidot platformu, kurā satikties un palīdzēt cilvēkiem piepildīt savus
-        sapņus.”</p>
-    <!--    <img src="../img/juris_gogulis.jpg" alt="Juris Gogulis">-->
 
+<!--<script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>-->
+
+<!--<div><div id="map"><iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d123131.41568295624!2d24.03203890629631!3d56.94516571402415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2slv!4v1603474630207!5m2!1sru!2slv" width="100%"height="650px" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div></div>-->
+
+<div class="section karte">
+    <img src="../img/Karte.png" alt="Maps">
 </div>
 
-<div class="section opinion">
-    <h2>Ken Ludden </h2>
-    <h3>Director, Margot Fonteyn Academy of Ballet</h3>
-    <p>For it is Juris work that is the
-        light the human race needs so badly these days. His vision is inspired and talent is beyond measure.</p>
-</div>
-
-
-<footer>
+<footer class="footer">
     <div class="footer_idea">
+
         <div class="footer-top">
             <div class="footer-col">
                 <a href="/">
@@ -71,7 +92,7 @@
 
             <div class="footer-col">
                 <ul>
-                    <li><a href="#">Ideja</a></li>
+                    <li><a href="ideja.html">Ideja</a></li>
                     <li><a href="#">Piesaki Sapni</a></li>
                     <li><a href="#">Uzņēmējiem</a></li>
                     <li><a href="#">Sapņu banka</a></li>
@@ -116,6 +137,7 @@
             <div>Privātuma politika</div>
         </div>
     </div>
+    <img class="footer_bg" src="../img/footer.png" alt="">
 </footer>
 
 <div class="scroll-to-top"></div>

@@ -22,9 +22,9 @@
         </div>
 
         <ul id='menu'>
-            <li><a class='active' href="#">Ideja</a></li>
+            <li><a href="ideja.html">Ideja</a></li>
             <li><a href="dreams.html">Piesaki Sapni</a></li>
-            <li><a href="commercial.html">Uzņēmējiem</a></li>
+            <li><a class='active' href="#">Uzņēmējiem</a></li>
             <li><a href="dreambank.html">Sapņu banka</a></li>
             <li><a href="support.html">Sapņus atbalsta</a></li>
             <li><a href="#">99 Iedvesmas stāsti</a></li>
@@ -36,27 +36,40 @@
 </header>
 
 <div class="section">
-    <h2 class="page_title">IDEJA</h2>
+    <h2 class="page_title">UZŅĒMĒJIEM</h2>
 
-    <h1 class="section about">Juris Gogulis ir pasaules iedvesmots mākslinieks–horeogrāfs un režisors, kura ikdiena aizrit
-        radot aizkustinošus un iedvesmojošus radošus projektus. Juris ir pārliecināts, ka ir vērts ticēt katram savam sapnim
-        un censties to īstenot. Kā smejas pats - daudzu draugu sapņiem viņš tic vairāk, nekā viņi paši!</h1>
+    <h1 class="section about">Ja ticat labākas pasaules attīstībai un vēlaties piedalīties starptautisku ideju realizēšanā,
+        tad priecāsimies ar Jums iepazīties.</h1>
 </div>
 
 
-<div class="section main_foto">
-    <p>“Kopš 3 gadu vecuma mani ir audzinājusi mamma, pēc viņas piemēra esmu sapratis, cik sieviete ir spēcīga un
-        varoša. Vēlos atlīdzināt un izveidot platformu, kurā satikties un palīdzēt cilvēkiem piepildīt savus
-        sapņus.”</p>
-    <!--    <img src="../img/juris_gogulis.jpg" alt="Juris Gogulis">-->
+<div class="section contact-us">
+    <h2>PALĪDZI ĪSTENOT SAPNI!</h2>
 
-</div>
+    <form action="" method="">
+        <div class="d-flex justify-content-between align-items-center">
+            <input class='half' type="text" name="name" placeholder="Vārds, Uzvārds*" required>
+            <input class='half' type="email" name="email" placeholder="E-pasts*" required>
+        </div>
 
-<div class="section opinion">
-    <h2>Ken Ludden </h2>
-    <h3>Director, Margot Fonteyn Academy of Ballet</h3>
-    <p>For it is Juris work that is the
-        light the human race needs so badly these days. His vision is inspired and talent is beyond measure.</p>
+        <input type="text" name="company" placeholder="Uzņēmuma nosaukums*" required>
+        <input type="tel" name="phone" placeholder="Telefons*" required>
+        <textarea name="message" placeholder="Jautājums, vai komentārs*" required></textarea>
+
+        <div>* obligāti aizpildāmie lauki</div>
+
+        <label class="checbox-container d-flex align-items-center">
+            <div>Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr
+                tas būs nepieciešams.
+            </div>
+            <input type="checkbox" name="terms" id="terms">
+            <span class="checkmark"></span>
+        </label>
+
+        <div class="btn-container">
+            <button class='btn' type="submit">Sūtīt</button>
+        </div>
+    </form>
 </div>
 
 
@@ -71,7 +84,7 @@
 
             <div class="footer-col">
                 <ul>
-                    <li><a href="#">Ideja</a></li>
+                    <li><a href="ideja.html">Ideja</a></li>
                     <li><a href="#">Piesaki Sapni</a></li>
                     <li><a href="#">Uzņēmējiem</a></li>
                     <li><a href="#">Sapņu banka</a></li>

@@ -273,10 +273,12 @@ header {
 }
 
 .about {
-  width: 654px;
+  max-width: 654px;
   font-weight: inherit;
   font-size: 18px;
   text-align: center;
+  margin: 100px auto;
+
 }
 
 
@@ -301,8 +303,8 @@ header {
     display: flex;
 
     div {
-      height: 383px;
-      width: 25%;
+      //height: 383px;
+      //width: 25%;
       overflow: hidden;
 
       img {
@@ -311,6 +313,7 @@ header {
         display: block;
         object-fit: cover;
         transition: all 0.4s;
+
 
         &:hover {
           transform: scale(1.2);
@@ -350,6 +353,7 @@ header {
 
 
 .contact-us {
+  margin-bottom: 100px;
   h2 {
     margin-bottom: 55px;
     color: $primary_color;
@@ -390,7 +394,7 @@ header {
     }
 
 
-    div {
+    span {
       font-size: 14px;
       line-height: 17px;
     }
@@ -418,10 +422,21 @@ header {
   }
 }
 
+.footer_bg {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  img{
+
+  }
+}
+
 
 footer {
+  position: relative;
   color: #fff;
-  margin-top: 150px;
+  margin-top: 200px;
+
   background-image: url("../img/footer.png");
   //background-color: $primary_color;
   border: none;
@@ -433,6 +448,8 @@ footer {
   }
 
   .supporters {
+    background-image: url("../img/footer-orange-background.svg");
+    background-repeat: round;
     padding: 100px 100px 0;
     position: relative;
     margin-bottom: -50px;
@@ -441,6 +458,7 @@ footer {
     &::before {
       width: 100%;
       @include background_img("../img/footer-orange-background.svg");
+      background-repeat: repeat-x;
       height: 533px;
       z-index: 1;
       top: -50px;
@@ -586,7 +604,7 @@ footer {
     padding-bottom: 50px;
     //padding-top: 50px;
     max-width: 50rem;
-    font-family: Oswald;
+    font-family: Oswald, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -632,9 +650,6 @@ footer {
 }
 
 
-
-
-
 //Dreams Page
 
 
@@ -654,7 +669,7 @@ footer {
   h2 {
     display: inline-block;
     width: 394px;
-    font-family: Oswald;
+    font-family: Oswald, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -666,7 +681,7 @@ footer {
   p {
     display: inline-block;
     width: 394px;
-    font-family: Montserrat;
+    font-family: Montserrat, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -675,12 +690,237 @@ footer {
     color: $primary_color;
 
   }
+
   .btn {
     @include button;
     border: none;
     margin-top: 50px;
   }
 }
+
+//Dream bank page
+
+.aim {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+
+  h2 {
+    font-size: 30px;
+    line-height: 44px;
+    color: $primary_color;
+    margin-bottom: 120px;
+    text-align: center;
+  }
+
+  h3 {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: $primary_color;
+  }
+
+  div {
+    margin-bottom: 120px;
+  }
+
+  p {
+    max-width: 500px;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-right: 274px;
+    text-align: left;
+  }
+
+  img {
+    margin: 0 62px -35px 67px;
+  }
+
+  :nth-child(3) {
+    text-align: left;
+
+    p {
+      margin: 0 0 50px 168px;
+    }
+  }
+}
+
+.orange_up {
+  position: relative;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+
+  p {
+    max-width: 818px;
+    position: absolute;
+    left: 20%;
+    top: 65%;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}
+
+.dreams_change {
+  h2 {
+    margin-bottom: 90px;
+    font-family: Oswald, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: $primary_color;
+  }
+
+  .dreams_change_items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+
+    h3 {
+      margin: 30px auto 0;
+      width: 287px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+    }
+  }
+}
+
+.dream_links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+
+  a {
+    display: block;
+    @include button;
+    margin: 50px auto;
+  }
+
+  h2 {
+    font-family: Oswald, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: $primary_color;
+  }
+}
+
+
+//Support Page
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding: 0 360px;
+
+  .list_item {
+    max-width: 288px;
+    margin: 15px;
+
+    select {
+      width: 288px;
+      height: 43px;
+      background-color: rgba(196, 196, 196, 0.4);
+      border-radius: 6px;
+      border: none;
+      padding: 12px 15px 10px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-image: url("../img/arrow.png");
+      background-repeat: no-repeat;
+      background-position: right 1em top 50%, 0 0;;
+
+      option {
+        font-family: Montserrat, serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.015em;
+        color: #2F4858;
+      }
+    }
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: $secondary_color;
+  }
+}
+
+//#map {
+//  position: absolute;
+//  width: 100%;
+//  height: 648px;
+//  margin-top: 60px;
+//  border: none;
+//  -webkit-filter: grayscale(100%);
+//  filter: grayscale(100%);
+//  z-index: -2;
+//}
+
+.karte{
+  margin-bottom: -340px;
+}
+
+
+
+
+            //99stories page
+.gallery_stories{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  //grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  //justify-content: center;
+  //grid-gap: 0;
+  img {
+    box-sizing: border-box;
+    width: 160px;
+    height: 160px;
+    display: block;
+    //margin-right: 14px;
+    margin-top: 14px;
+    object-fit: cover;
+  }
+}
+.block {
+  width: 160px;
+  height: 160px;
+  background-image: url("../pages/stories_img/block.png");
+  margin-top: 14px;
+}
+
+
+
+
+
+                    //Media
 
 
 @media (max-width: 1200px) {
