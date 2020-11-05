@@ -790,10 +790,38 @@ footer .footer-bottom {
 }
 
 .block {
+  position: relative;
   width: 160px;
   height: 160px;
   background-image: url("../pages/stories_img/block.png");
   margin-top: 14px;
+}
+.block span {
+  position: absolute;
+  width: 148px;
+  height: 42px;
+  top: 120px;
+  font-family: Oswald, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.team h2 {
+  margin-bottom: -85px;
+}
+.team .team_img {
+  display: flex;
+  justify-content: space-evenly;
+}
+.team .team_img img {
+  object-fit: contain;
+  height: auto;
+  width: 100%;
+  max-width: 289px;
 }
 
 @media (max-width: 1200px) {

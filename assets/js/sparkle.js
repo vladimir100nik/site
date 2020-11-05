@@ -28,7 +28,7 @@ function block() {
 
 
     let wrap = $("<div class='block'>")
-    for (let i = 0; i < 15; i++) {
+    for (let i = 19; i < 100; i++) {
         let c = wrap.clone()
         $("<span>").text(i).appendTo(c)
         c.appendTo($("#gallery"));

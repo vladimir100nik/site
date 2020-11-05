@@ -354,6 +354,7 @@ header {
 
 .contact-us {
   margin-bottom: 100px;
+
   h2 {
     margin-bottom: 55px;
     color: $primary_color;
@@ -426,7 +427,8 @@ header {
   position: absolute;
   bottom: 0;
   z-index: -1;
-  img{
+
+  img {
 
   }
 }
@@ -885,15 +887,13 @@ footer {
 //  z-index: -2;
 //}
 
-.karte{
+.karte {
   margin-bottom: -340px;
 }
 
 
-
-
-            //99stories page
-.gallery_stories{
+//99stories page
+.gallery_stories {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   //grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -909,18 +909,48 @@ footer {
     object-fit: cover;
   }
 }
+
 .block {
+  position: relative;
   width: 160px;
   height: 160px;
   background-image: url("../pages/stories_img/block.png");
   margin-top: 14px;
+
+  span {
+    position: absolute;
+    width: 148px;
+    height: 42px;
+    top: 120px;
+    font-family: Oswald, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+}
+
+.team {
+  h2 {
+    margin-bottom: -85px;
+  }
+
+  .team_img {
+    display: flex;
+    justify-content: space-evenly;
+    img{
+      object-fit: contain;
+      height: auto;
+      width: 100%;
+      max-width: 289px;
+    }
+  }
 }
 
 
-
-
-
-                    //Media
+//Media
 
 
 @media (max-width: 1200px) {
