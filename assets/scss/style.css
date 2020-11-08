@@ -375,24 +375,15 @@ header .video-container img.play-btn:hover {
   z-index: -1;
 }
 footer {
-  position: relative;
   color: #fff;
-  margin-top: 200px;
-  background-image: url("../img/footer.png");
-  border: none;
-  background-position: bottom;
-  background-repeat: repeat-x;
+  margin-top: 150px;
+  background-color: #2F4858;
 }
 footer .supporters {
-  background-image: url("../img/footer-orange-background.svg");
-  background-repeat: round;
   padding: 100px 100px 0;
   position: relative;
-  margin-bottom: -50px;
-  z-index: -1;
 }
 footer .supporters::before {
-  width: 100%;
   width: 100%;
   height: 128px;
   content: "";
@@ -402,8 +393,7 @@ footer .supporters::before {
   top: 0;
   left: 0;
   z-index: -1;
-  background-repeat: repeat-x;
-  height: 533px;
+  height: 533.32px;
   z-index: 1;
   top: -50px;
 }
@@ -435,7 +425,6 @@ footer .footer-top {
 footer .footer-top .footer-col {
   width: 25%;
   display: inline-block;
-  background-repeat: repeat-x;
 }
 footer .footer-top .footer-col h2 {
   display: inline-block;
@@ -559,36 +548,37 @@ footer .footer-bottom {
 }
 
 .dreams {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-evenly;
 }
 .dreams div {
   text-align: center;
 }
 .dreams img {
+  display: block;
   width: 166px;
   margin: 90px auto;
 }
 .dreams h2 {
-  display: inline-block;
-  width: 394px;
+  display: block;
+  max-width: 394px;
   font-family: Oswald, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
   line-height: 44px;
-  margin-top: 60px;
+  margin: 60px auto;
   color: #2F4858;
 }
 .dreams p {
-  display: inline-block;
-  width: 394px;
+  display: block;
+  max-width: 394px;
   font-family: Montserrat, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  margin-top: 30px;
+  margin: 30px auto;
   color: #2F4858;
 }
 .dreams .btn {
@@ -858,7 +848,10 @@ footer .footer-bottom {
   .about {
     width: 100%;
     padding: 0 15px;
-    text-align: justify;
+    text-align: center;
+  }
+  .about h1 {
+    justify-content: center;
   }
 
   .gallery-container::before {
@@ -912,6 +905,11 @@ footer .footer-bottom {
     text-align: center;
   }
 }
+.dreams {
+  display: block;
+  justify-content: center;
+}
+
 @media (max-width: 576px) {
   header nav::after {
     height: 90px;

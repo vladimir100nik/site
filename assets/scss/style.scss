@@ -434,39 +434,156 @@ header {
 }
 
 
-footer {
-  position: relative;
+//footer {
+//  position: relative;
+//  color: #fff;
+//  margin-top: 200px;
+//
+//  background-image: url("../img/footer.png");
+//  //background-color: $primary_color;
+//  border: none;
+//  background-position: bottom;
+//  background-repeat: repeat-x;
+//
+//  .footer_idea {
+//
+//  }
+//
+//  .supporters {
+//    background-image: url("../img/footer-orange-background.svg");
+//    background-repeat: round;
+//    padding: 100px 100px 0;
+//    position: relative;
+//    margin-bottom: -50px;
+//    z-index: -1;
+//
+//    &::before {
+//      width: 100%;
+//      @include background_img("../img/footer-orange-background.svg");
+//      background-repeat: repeat-x;
+//      height: 533px;
+//      z-index: 1;
+//      top: -50px;
+//    }
+//
+//    h2 {
+//      position: relative;
+//      z-index: 1;
+//      color: $primary_color;
+//      font-size: 24px;
+//      text-align: center;
+//      font-family: "Oswald", serif;
+//      margin-bottom: 55px;
+//    }
+//
+//    ul {
+//      position: relative;
+//      z-index: 1;
+//      padding: 0;
+//      margin-top: 100px;
+//      display: flex;
+//      justify-content: space-around;
+//
+//      li {
+//        list-style: none;
+//        text-align: center;
+//      }
+//    }
+//  }
+//
+//  .footer-top {
+//    display: flex;
+//    padding: 150px 62px 0;
+//    @extend .footer_idea;
+//
+//
+//    .footer-col {
+//      width: 25%;
+//      display: inline-block;
+//      //background-color: $primary_color;
+//      background-repeat: repeat-x;
+//
+//      h2 {
+//        display: inline-block;
+//        margin-bottom: 10px;
+//      }
+//
+//      div {
+//        width: 100%;
+//        display: block;
+//        margin: 10px 0;
+//      }
+//
+//      &:last-of-type {
+//        text-align: right;
+//      }
+//
+//      ul {
+//        padding: 0;
+//
+//        li {
+//          list-style: none;
+//          margin-bottom: 21px;
+//
+//          a {
+//            color: #fff;
+//            font-size: 18px;
+//            text-decoration: none;
+//            transition: all 0.3s;
+//
+//            &:hover {
+//              color: $secondary_color;
+//            }
+//          }
+//        }
+//      }
+//
+//      .social-links {
+//        margin-top: 52px;
+//
+//        a {
+//          margin-left: 29px;
+//          text-decoration: none;
+//
+//          img {
+//            height: 36px;
+//          }
+//        }
+//      }
+//    }
+//  }
+//
+//  .footer-bottom {
+//    display: flex;
+//    line-height: 17.07px;
+//    font-size: 14px;
+//    justify-content: space-between;
+//    align-items: center;
+//    padding: 5px 62px 13px;
+//    //background-color: $primary_color;
+//
+//  }
+//
+//}
+
+footer{
   color: #fff;
-  margin-top: 200px;
+  margin-top: 150px;
+  background-color: $primary_color;
 
-  background-image: url("../img/footer.png");
-  //background-color: $primary_color;
-  border: none;
-  background-position: bottom;
-  background-repeat: repeat-x;
-
-  .footer_idea {
-
-  }
-
-  .supporters {
-    background-image: url("../img/footer-orange-background.svg");
-    background-repeat: round;
+  .supporters{
     padding: 100px 100px 0;
     position: relative;
-    margin-bottom: -50px;
-    z-index: -1;
 
-    &::before {
-      width: 100%;
+    &::before{
       @include background_img("../img/footer-orange-background.svg");
-      background-repeat: repeat-x;
-      height: 533px;
+
+      height: 533.32px;
       z-index: 1;
       top: -50px;
     }
 
-    h2 {
+    h2{
       position: relative;
       z-index: 1;
       color: $primary_color;
@@ -476,7 +593,7 @@ footer {
       margin-bottom: 55px;
     }
 
-    ul {
+    ul{
       position: relative;
       z-index: 1;
       padding: 0;
@@ -484,68 +601,64 @@ footer {
       display: flex;
       justify-content: space-around;
 
-      li {
+      li{
         list-style: none;
         text-align: center;
       }
     }
   }
 
-  .footer-top {
+  .footer-top{
     display: flex;
     padding: 150px 62px 0;
-    @extend .footer_idea;
 
-
-    .footer-col {
+    .footer-col{
       width: 25%;
       display: inline-block;
-      //background-color: $primary_color;
-      background-repeat: repeat-x;
 
-      h2 {
+      h2{
         display: inline-block;
         margin-bottom: 10px;
       }
 
-      div {
+      div{
         width: 100%;
         display: block;
         margin: 10px 0;
       }
 
-      &:last-of-type {
+      &:last-of-type{
         text-align: right;
       }
 
-      ul {
+      ul{
         padding: 0;
 
-        li {
+        li{
           list-style: none;
           margin-bottom: 21px;
 
-          a {
+          a{
             color: #fff;
             font-size: 18px;
             text-decoration: none;
             transition: all 0.3s;
 
-            &:hover {
+            &:hover{
               color: $secondary_color;
             }
           }
         }
       }
 
-      .social-links {
+      .social-links{
         margin-top: 52px;
 
-        a {
+        a{
           margin-left: 29px;
           text-decoration: none;
 
-          img {
+          img{
             height: 36px;
           }
         }
@@ -553,17 +666,14 @@ footer {
     }
   }
 
-  .footer-bottom {
+  .footer-bottom{
     display: flex;
     line-height: 17.07px;
     font-size: 14px;
     justify-content: space-between;
     align-items: center;
     padding: 5px 62px 13px;
-    //background-color: $primary_color;
-
   }
-
 }
 
 .scroll-to-top {
@@ -656,39 +766,40 @@ footer {
 
 
 .dreams {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-evenly;
 
   div {
     text-align: center;
   }
 
   img {
+    display: block;
     width: 166px;
     margin: 90px auto;
   }
 
   h2 {
-    display: inline-block;
-    width: 394px;
+    display: block;
+    max-width: 394px;
     font-family: Oswald, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 44px;
-    margin-top: 60px;
+    margin: 60px auto;
     color: $primary_color;
   }
 
   p {
-    display: inline-block;
-    width: 394px;
+    display: block;
+    max-width: 394px;
     font-family: Montserrat, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
-    margin-top: 30px;
+    margin: 30px auto;
     color: $primary_color;
 
   }
@@ -995,7 +1106,10 @@ footer {
   .about {
     width: 100%;
     padding: 0 15px;
-    text-align: justify;
+    text-align: center;
+    h1{
+      justify-content: center;
+    }
   }
 
   .gallery-container {
@@ -1066,6 +1180,13 @@ footer {
     }
   }
 }
+.dreams{
+  display: block;
+  justify-content: center;
+}
+
+
+
 
 
 @media (max-width: 576px) {
