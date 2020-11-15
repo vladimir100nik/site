@@ -21,9 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cc6618b9-5ece-40c3-a0ff-3da83684cc92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/sparkle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/sparkle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/pages/dreambank.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pages/dreambank.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pages/ideja.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pages/ideja.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pages/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pages/support.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.scss" afterDir="false" />
@@ -119,7 +118,8 @@
       <workItem from="1604860340863" duration="655000" />
       <workItem from="1605094959748" duration="1703000" />
       <workItem from="1605340128911" duration="5228000" />
-      <workItem from="1605353981794" duration="7385000" />
+      <workItem from="1605353981794" duration="8088000" />
+      <workItem from="1605457273495" duration="8453000" />
     </task>
     <servers />
   </component>
