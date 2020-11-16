@@ -119,7 +119,8 @@
       <workItem from="1605094959748" duration="1703000" />
       <workItem from="1605340128911" duration="5228000" />
       <workItem from="1605353981794" duration="8088000" />
-      <workItem from="1605457273495" duration="8453000" />
+      <workItem from="1605457273495" duration="9304000" />
+      <workItem from="1605531776197" duration="9909000" />
     </task>
     <servers />
   </component>
@@ -187,5 +188,9 @@
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="1650" y="201" key="SettingsEditor/0.0.2752.1112@0.0.2752.1112" timestamp="1603209799954" />
+    <state x="1811" y="247" key="search.everywhere.popup" timestamp="1605534053621">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="1811" y="247" key="search.everywhere.popup/0.0.2752.1112@0.0.2752.1112" timestamp="1605534053621" />
   </component>
 </project>
