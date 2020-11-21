@@ -889,6 +889,10 @@ footer {
   max-width: 289px;
 }
 
+.active {
+  display: block;
+}
+
 @media (max-width: 1200px) {
   header nav {
     padding: 0 15px;
@@ -1098,9 +1102,14 @@ footer {
   }
   footer .footer-top {
     flex-direction: column;
+    padding: 30px;
+    width: 70%;
   }
   footer .footer-top .footer-col {
     width: 100%;
+  }
+  footer .footer-top .footer-col .logo_footer {
+    width: 60%;
   }
   footer .footer-bottom {
     text-align: center;
@@ -1134,6 +1143,14 @@ footer {
   .team .team_img img {
     display: block;
     margin: 0 auto 25px;
+  }
+
+  .rekv_hidden {
+    display: none !important;
+  }
+
+  .active_show {
+    display: block !important;
   }
 }
 

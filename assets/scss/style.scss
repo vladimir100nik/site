@@ -1150,6 +1150,10 @@ footer {
   }
 }
 
+.active {
+  display: block;
+}
+
 
 //Media
 
@@ -1343,6 +1347,7 @@ footer {
       padding: 0;
     }
   }
+
 }
 
 
@@ -1429,9 +1434,15 @@ footer {
 
     .footer-top {
       flex-direction: column;
+      padding: 30px;
+      width: 70%;
 
       .footer-col {
         width: 100%;
+        .logo_footer{
+          width: 60%;
+         //margin-right: 50%;
+        }
       }
     }
 
@@ -1458,7 +1469,8 @@ footer {
   }
   .gallery_stories {
     grid-template-columns: 1fr 1fr;
-    img, .block{
+
+    img, .block {
       display: block;
       margin: 50px auto 5px;
     }
@@ -1472,6 +1484,12 @@ footer {
         margin: 0 auto 25px;
       }
     }
+  }
+  .rekv_hidden {
+    display: none !important;
+  }
+  .active_show {
+    display: block !important;
   }
 }
 

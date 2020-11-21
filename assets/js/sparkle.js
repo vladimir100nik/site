@@ -98,3 +98,14 @@ $(document).ready(function () {
     //initialize slider on load
     moveTo('next');
 });
+
+// $('.show_rekv').click(function (){
+//     $('#menu_footer').css('display', 'none');
+// })
+// $('.show_rekv').click(function (){
+//     $('#menu_footer').css('display', ' ');
+// })
+$('#show_rekv').on('click',function(e){
+    e.preventDefault();
+    $('.rekv_hidden').toggleClass('active_show');
+});
