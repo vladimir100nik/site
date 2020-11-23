@@ -109,3 +109,8 @@ $('#show_rekv').on('click',function(e){
     e.preventDefault();
     $('.rekv_hidden').toggleClass('active_show');
 });
+
+$('#show_all').click(function(e){
+    $('.block').css('display', 'block');
+    $('#show_all').css('display', 'none');
+});
