@@ -1154,6 +1154,10 @@ footer {
   display: block;
 }
 
+.full_scr_hidden {
+  visibility: hidden;
+}
+
 
 //Media
 
@@ -1261,7 +1265,7 @@ footer {
     .footer-top {
       //padding: 0 15px;
       text-align: center;
-      flex-wrap: wrap;
+      //flex-wrap: wrap;
 
       .footer-col {
         width: 50%;
@@ -1271,6 +1275,14 @@ footer {
         &:last-of-type {
           text-align: center;
 
+        }
+
+        .contacts {
+          text-align: right;
+
+          h2 {
+            display: none;
+          }
         }
       }
     }
@@ -1352,24 +1364,39 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   .team {
-    .team_img{
+    .team_img {
       flex-direction: column;
+
       img {
         display: block;
         margin: 0 auto 25px;
       }
     }
   }
-  .block{
+  .block {
     display: none;
   }
-  .show_all{
+  .show_all {
     @include button;
     display: block;
     border: none;
     margin: 50px auto;
   }
+  .rekv_hidden {
+    display: none !important;
+  }
+  .active_show {
+    display: block !important;
 
+  }
+  .scroll-to-top, .footer_links {
+    display: none;
+    visibility: hidden;
+    height: 0px;
+  }
+  .full_scr_hidden {
+    visibility: revert;
+  }
 }
 
 
@@ -1406,7 +1433,7 @@ footer {
       div,
       div:nth-of-type(3) div {
         width: 100%;
-        height: 383px;
+        //height: 383px;
       }
     }
   }
@@ -1472,6 +1499,10 @@ footer {
           margin-top: 85px;
           //margin-right: 50%;
         }
+
+        .contacts {
+      text-align: left;
+        }
       }
     }
 
@@ -1534,14 +1565,38 @@ footer {
       margin-bottom: 0;
     }
   }
-  .block{
+  .block {
     display: none;
   }
-  .show_all{
+  .show_all {
     @include button;
     display: block;
     border: none;
     margin: 50px auto;
+  }
+  .gallery-container {
+    .gallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      .first_item {
+        order: -2;
+        margin-top: 15px;
+
+      }
+
+      .last_item {
+        order: 2;
+      }
+
+      .second_item {
+        order: -1;
+      }
+
+    }
+  }
+  .full_scr_hidden {
+    visibility: revert;
   }
 }
 
