@@ -396,8 +396,8 @@ footer {
   left: 0;
   z-index: -1;
   height: 533.32px;
-  z-index: 1;
-  top: -50px;
+  z-index: -1;
+  top: 60px;
 }
 .supporters h2 {
   position: relative;
@@ -430,7 +430,7 @@ footer {
   display: inline-block;
 }
 .footer-top .footer-col h2 {
-  display: inline-block;
+  display: block;
   margin-bottom: 10px;
 }
 .footer-top .footer-col div {
@@ -955,25 +955,33 @@ footer {
     width: 90%;
   }
 
-  footer .supporters {
+  .supporters {
+    top: 110px;
+  }
+  .supporters .supporters_items {
     padding: 0;
   }
-  footer .supporters::before {
+  .supporters .supporters_items::before {
     height: 400px;
   }
-  footer .supporters ul {
+  .supporters .supporters_items h2 {
+    padding-top: 30px;
+  }
+  .supporters .supporters_items ul {
     margin: 70px 0;
     flex-wrap: wrap;
+    padding-top: 30px;
   }
-  footer .supporters ul li {
+  .supporters .supporters_items ul li {
     width: 50%;
     padding: 0 15px;
     margin-bottom: 30px;
   }
-  footer .supporters ul li img {
+  .supporters .supporters_items ul li img {
     height: 70px;
     width: auto;
   }
+
   footer .footer-top {
     text-align: center;
   }
@@ -1055,6 +1063,12 @@ footer {
   .gallery_stories {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+  .gallery_stories div {
+    margin: 0 auto;
+  }
+  .gallery_stories .block {
+    margin: 14px auto 0;
+  }
 
   .team .team_img {
     flex-direction: column;
@@ -1103,9 +1117,11 @@ footer {
 
   .full_scr_hidden {
     visibility: revert;
+    font-weight: bold;
+    font-size: larger;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 720px) {
   header nav::after {
     height: 90px;
   }
@@ -1157,10 +1173,16 @@ footer {
     margin-top: 80px;
   }
 
-  footer .supporters ul li img {
+  .supporters {
+    top: 200px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .supporters .supporters_items ul li img {
     max-width: 100%;
     height: auto;
   }
+
   footer .footer-top {
     flex-direction: column;
     padding: 30px;
@@ -1170,11 +1192,14 @@ footer {
     width: 100%;
     text-align: left;
   }
+  footer .footer-top .footer-col h2 {
+    display: block;
+  }
   footer .footer-top .footer-col:last-of-type {
     text-align: left;
   }
   footer .footer-top .footer-col .logo_footer {
-    width: 60%;
+    width: 150px;
     margin-top: 85px;
   }
   footer .footer-top .footer-col .contacts {

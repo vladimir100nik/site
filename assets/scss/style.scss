@@ -581,8 +581,8 @@ footer {
   &::before {
     @include background_img("../img/footer-orange-background.svg");
     height: 533.32px;
-    z-index: 1;
-    top: -50px;
+    z-index: -1;
+    top: 60px;
   }
 
   h2 {
@@ -619,7 +619,7 @@ footer {
     display: inline-block;
 
     h2 {
-      display: inline-block;
+      display: block;
       margin-bottom: 10px;
     }
 
@@ -1235,19 +1235,24 @@ footer {
       width: 90%;
     }
   }
+  .supporters {
+    top: 110px;
 
-
-  footer {
-    .supporters {
+    .supporters_items {
       padding: 0;
 
       &::before {
         height: 400px;
       }
 
+      h2 {
+        padding-top: 30px;
+      }
+
       ul {
         margin: 70px 0;
         flex-wrap: wrap;
+        padding-top: 30px;
 
         li {
           width: 50%;
@@ -1261,7 +1266,8 @@ footer {
         }
       }
     }
-
+  }
+  footer {
     .footer-top {
       //padding: 0 15px;
       text-align: center;
@@ -1362,6 +1368,12 @@ footer {
   }
   .gallery_stories {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    div{
+      margin: 0 auto;
+    }
+    .block{
+      margin: 14px auto 0;
+    }
   }
   .team {
     .team_img {
@@ -1396,11 +1408,14 @@ footer {
   }
   .full_scr_hidden {
     visibility: revert;
+    font-weight: bold;
+    font-size: larger;
+
   }
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 720px) {
   header {
     nav {
       &::after {
@@ -1466,11 +1481,14 @@ footer {
       margin-top: 80px;
     }
   }
+  .supporters {
+    top: 200px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    .supporters_items {
 
 
-  footer {
-
-    .supporters {
       ul {
         li {
           img {
@@ -1480,7 +1498,8 @@ footer {
         }
       }
     }
-
+  }
+  footer {
     .footer-top {
       flex-direction: column;
       padding: 30px;
@@ -1490,18 +1509,22 @@ footer {
         width: 100%;
         text-align: left;
 
+        h2 {
+          display: block;
+        }
+
         &:last-of-type {
           text-align: left;
         }
 
         .logo_footer {
-          width: 60%;
+          width: 150px;
           margin-top: 85px;
           //margin-right: 50%;
         }
 
         .contacts {
-      text-align: left;
+          text-align: left;
         }
       }
     }
@@ -1597,6 +1620,6 @@ footer {
   }
   .full_scr_hidden {
     visibility: revert;
+
   }
 }
-
